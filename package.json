@@ -1,0 +1,19 @@
+{
+  "name": "brainindex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node src/cleanExtensions.mjs",
+    "gentxt": "node src/generateTxtFiles.mjs",
+    "fabric": "node src/runFabric.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "chokidar": "^3.6.0",
+    "minimist": "^1.2.8"
+  }
+}
